@@ -1,0 +1,44 @@
+(defpoll vol
+  :interval "-1s"
+  `pactl get-sink-volume @DEFAULT_SINK@ | grep Volume | awk '{print $5}'`
+)
+
+(defpoll time
+  :interval "10s"
+  `date +%H:%M.%a`  
+)
+
+(defpoll brightness
+  :interval "-1s"
+  `brightnessctl g`
+)
+
+(defwindow dock
+  :monitor "0"
+  :stacking "fg"
+  :exclusive true
+  :wm-ignore false
+  :geometry (geometry
+    :width "99%"
+    :height "5%"
+    :x "50%"
+    :y "1%"
+    :anchor "top center"
+  )
+  (box
+    ;:space-evenly false
+    :class "dock-body"
+    (label
+      :class "dock time"
+      :text time
+    )
+    (label
+      :class "dock bright"
+      :text " ${round(brightness * 0.02048340843,0)}%"
+    )
+    (label
+      :class "dock vol"
+      :text "󰕾 ${vol}"
+    )
+  )
+)
