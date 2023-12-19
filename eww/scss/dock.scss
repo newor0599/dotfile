@@ -1,0 +1,27 @@
+/*
+@font-face{
+  font-family: 'Nerd';
+  src: url(/usr/share/fonts/TTF/3270NerdFont-Regular.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+
+
+
+window{
+  background:none;
+}
+
+.dock-body{
+  background:rgba(22,22,22,.8);
+  border-radius: 1rem;
+}
+
+.dock{
+  color:#ddd;
+  font-family: 'Courier New', Courier, monospace;
+  /*margin: 0 1rem 0 1rem;*/
+}
+
