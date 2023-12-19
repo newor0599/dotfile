@@ -1,1 +1,60 @@
+@define-color accent #3dadcc;
+@define-color bg #111;
+@define-color light #222;
+@define-color text #f8f8f8;
 
+window {
+border-radius: 1rem;
+padding: 1rem;
+background-color: @bg;
+}
+
+
+#input {
+border-radius: 1rem;
+margin: 5px;
+border: none;
+outline:none;
+color: @text;
+background-color: @light;
+}
+
+#inner-box {
+padding:10px;
+margin: 5px;
+border: none;
+background-color: @bg;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @bg;
+}
+
+
+#text {
+margin: 5px;
+border: none;
+color: @text;
+} 
+
+#entry.activatable #text {
+color: @bg;
+}
+
+#entry > * {
+color: @text;
+}
+
+#entry:selected {
+border: none;
+outline:none;
+color: @text;
+background: linear-gradient(90deg, rgba(15,160,190,1) 0%, #48dfeb 100%);
+border-radius: 1rem;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}
