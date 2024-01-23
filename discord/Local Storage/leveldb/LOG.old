@@ -1,6 +1,0 @@
-2024/01/17-19:32:38.421 981b Reusing MANIFEST /home/newor/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/01/17-19:32:38.450 981b Recovering log #46
-2024/01/17-19:32:38.453 981b Reusing old log /home/newor/.config/discord/Local Storage/leveldb/000046.log 
-2024/01/17-19:36:19.188 981d Level-0 table #50: started
-2024/01/17-19:36:19.226 981d Level-0 table #50: 2777056 bytes OK
-2024/01/17-19:36:19.231 981d Delete type=0 #46
