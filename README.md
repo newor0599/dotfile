@@ -11,7 +11,7 @@ This is still work in progress
     - [x] Indication of bluetooth devices connection
   - [ ] Redesign bluetooth ui (After bluetooth functionality are stable)
 
-- [ ]**Wi-Fi**
+- [ ] **Wi-Fi**
   - [x] Structure Wi-Fi ui
   - [ ] Wi-Fi Script
     - [ ] Wi-Fi connection
