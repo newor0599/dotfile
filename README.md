@@ -5,16 +5,18 @@ This is still work in progress
 
 **Bluetooth**
 - [x] Structure bluetooth ui
-- [x] Bluetooth connect
-- [x] Bluetooth disconnect
-- [x] Indication of connected and unconnected
+- [x] Bluetooth script
+  - [x] Bluetooth connect
+  - [x] Bluetooth disconnect
+  - [x] Indication of bluetooth devices connection
 - [ ] Redesign bluetooth ui (After bluetooth functionality are stable)
 
 **Wi-Fi**
 - [x] Structure Wi-Fi ui
-- [ ] Wi-Fi connection
-- [ ] Wi-Fi disconnection
-- [ ] Indication of connectivity in Wi-Fi
+- [ ] Wi-Fi Script
+  - [ ] Wi-Fi connection
+  - [ ] Wi-Fi disconnection
+  - [ ] Indication of connectivity in Wi-Fi
 - [ ] Redesign Wi-Fi ui (After Wi-Fi fucntionality are stable)
 
 **Misc/Other**
