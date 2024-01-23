@@ -27,3 +27,12 @@ This is still work in progress
 
 **Misc/Other**
 - [ ] New look for dock (After all function are fully implemented)
+
+## Nvim
+- [ ] Add plugins for better git workflow (lazygit nvim)
+
+## Kitty
+- [ ] Rewrite keymap (cuz it ain't mine)
+
+## Ranger
+- [ ] Rewrite keymap (cuz it ain't mine)
