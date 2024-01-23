@@ -1,12 +1,13 @@
 @define-color accent #3dadcc;
-@define-color bg #111;
+@define-color bg rgba(11,11,11,1);
 @define-color light #222;
 @define-color text #f8f8f8;
 
 window {
-border-radius: 1rem;
-padding: 1rem;
-background-color: @bg;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: @bg;
+  backdrop-filter:blur(10px);
 }
 
 
@@ -14,7 +15,7 @@ background-color: @bg;
 border-radius: 1rem;
 margin: 5px;
 border: none;
-outline:none;
+outline-style:none;
 color: @text;
 background-color: @light;
 }
@@ -23,13 +24,13 @@ background-color: @light;
 padding:10px;
 margin: 5px;
 border: none;
-background-color: @bg;
+background-color: none;
 }
 
 #outer-box {
 margin: 5px;
 border: none;
-background-color: @bg;
+background-color: none;
 }
 
 
@@ -51,7 +52,7 @@ color: @text;
 border: none;
 outline:none;
 color: @text;
-background: linear-gradient(90deg, rgba(15,160,190,1) 0%, #48dfeb 100%);
+background: linear-gradient(90deg, rgba(36, 79, 57 ,1) 0%, rgba(36, 79, 57, 1) 100%);
 border-radius: 1rem;
 }
 

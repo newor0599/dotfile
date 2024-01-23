@@ -1,0 +1,184 @@
+{"timestamp":"2024-01-09T07:11:01.472Z","level":"info","moduleName":"CLI","message":"[ 'CLI start', { _: [], headless: 'install', v: '2022.2.6', version: '2022.2.6', q: true, u: true, i: true, installed: true, t: true, architecture: 'unknown', a: 'unknown', childModules: false, cm: false, 'child-modules': false, '$0': '/opt/unityhub/unityhub-bin' } ]"}
+{"timestamp":"2024-01-09T07:11:01.476Z","level":"info","moduleName":"App","message":"[ 'Environment variables loaded successfully.' ]"}
+{"timestamp":"2024-01-09T07:11:01.476Z","level":"info","moduleName":"APMClient","message":"[ 'Initializing APM Client' ]"}
+{"timestamp":"2024-01-09T07:11:13.849Z","level":"info","moduleName":"SystemInfo","message":"[ 'Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz;;Linux (6.6.10-arch1-1) x64;' ]"}
+{"timestamp":"2024-01-09T07:11:14.004Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.7.0' ]"}
+{"timestamp":"2024-01-09T07:11:14.006Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: /usr/bin/unityhub' ]"}
+{"timestamp":"2024-01-09T07:11:14.043Z","level":"info","moduleName":"HubSettings","message":"[ { cloudEnvironment: 'production', servicesUrlInterval: 900000, hubConfigInterval: 3600000, releasesRefreshInterval: 3600000, recentProjectInterval: 60000, downloadClusterInterval: 1000, downloadEditorInterval: 1000, refreshTokenValidity: 2592000000, checkForUpdateInterval: 43200000, sendAnalyticsEventsInterval: 60000, maxSizeForAnalyticsQueue: 500, downloadRequestTimeout: 30000, servicesConfigBaseUrl: 'https://public-cdn.cloud.unity3d.com/config/', globalConfigFolder: '/usr/share/unity3d/config' } ]"}
+{"timestamp":"2024-01-09T07:11:14.070Z","level":"info","moduleName":"CloudConfig","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2024-01-09T07:11:14.534Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2024-01-09T07:11:14.535Z","level":"info","moduleName":"LocalConfig","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2024-01-09T07:11:14.552Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Initializing Feature Flags Service' ]"}
+{"timestamp":"2024-01-09T07:11:14.556Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:14.596Z","level":"info","moduleName":"FeatureFlagCache","message":"[ 'Setting feature flags to defaults', { amplitude: { 'application-performance-monitoring': [Object], 'enable-surveys': [Object], 'work-offline': [Object], 'enable-cms': [Object], 'community-tab-static': [Object], 'incompatible-license-warning': [Object], 'unified-project-phase1': [Object], 'unified-project-phase2': [Object], 'opt-out-preferences': [Object], 'protocol-handler-reregistering': [Object], 'unified-project-use-legacy-wordings': [Object], 'unified-project-phase-1-services-url': [Object] } } ]"}
+{"timestamp":"2024-01-09T07:11:14.663Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2024-01-09T07:11:14.663Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2024-01-09T07:11:14.687Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'licensingClientPath: /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client' ]"}
+{"timestamp":"2024-01-09T07:11:14.705Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.14.1' ]"}
+{"timestamp":"2024-01-09T07:11:14.706Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2024-01-09T07:11:14.733Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-newor.sock' ]"}
+{"timestamp":"2024-01-09T07:11:14.791Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Disconnecting from licensing client notifications pipe' ]"}
+{"timestamp":"2024-01-09T07:11:14.794Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Launching Licensing Client from /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client...' ]"}
+{"timestamp":"2024-01-09T07:11:14.795Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Launching on pipe: 'Unity-LicenseClient-newor' in environment: 'production'\" ]"}
+{"timestamp":"2024-01-09T07:11:15.012Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Fetching feature flags' ]"}
+{"timestamp":"2024-01-09T07:11:15.030Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2024-01-09T07:11:17.028Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 1588752' ]"}
+{"timestamp":"2024-01-09T07:11:17.029Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-newor.sock' ]"}
+{"timestamp":"2024-01-09T07:11:17.220Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect to notification channel on pipe /tmp/Unity-LicenseClient-newor-notifications.sock' ]"}
+{"timestamp":"2024-01-09T07:11:17.221Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client pipe' ]"}
+{"timestamp":"2024-01-09T07:11:17.221Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:17.222Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Registering callback method for 'onLicenseUpdate' notification\" ]"}
+{"timestamp":"2024-01-09T07:11:17.222Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Registering callback method for 'onLicenseExpired' notification\" ]"}
+{"timestamp":"2024-01-09T07:11:17.223Z","level":"info","moduleName":"Authentication Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2024-01-09T07:11:17.225Z","level":"info","moduleName":"Authentication Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2024-01-09T07:11:17.233Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2024-01-09T07:11:17.237Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:17.239Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.241Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.249Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.259Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.261Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.263Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.263Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.265Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.265Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.266Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.268Z","level":"info","moduleName":"PrivacyPreferencesService","message":"[ 'Missing privacyPreferences.json file. Setting default.' ]"}
+{"timestamp":"2024-01-09T07:11:17.269Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.270Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.270Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.272Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.273Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client notifications pipe' ]"}
+{"timestamp":"2024-01-09T07:11:17.275Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:17.276Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:17.345Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:17.345Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.348Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.349Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Initialization with service type: LivePlatformAPI.' ]"}
+{"timestamp":"2024-01-09T07:11:17.350Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:17.350Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2024-01-09T07:11:17.355Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:17.355Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.357Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.366Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:17.367Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.369Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Custom install path not present.' ]"}
+{"timestamp":"2024-01-09T07:11:17.373Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '0 out of 0 valid paths found in path:\\n      /home/newor/Unity/Hub/Editor' ]"}
+{"timestamp":"2024-01-09T07:11:17.373Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2024-01-09T07:11:17.378Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:17.378Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.379Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.386Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in legacy storage' ]"}
+{"timestamp":"2024-01-09T07:11:17.387Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in storage' ]"}
+{"timestamp":"2024-01-09T07:11:17.403Z","level":"info","moduleName":"Releases","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2024-01-09T07:11:17.404Z","level":"info","moduleName":"ThemeManager","message":"[ 'Initializing Theme Manager' ]"}
+{"timestamp":"2024-01-09T07:11:17.412Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:17.412Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:17.549Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Feature flags has changed, updating cache and notifying renderer' ]"}
+{"timestamp":"2024-01-09T07:11:17.551Z","level":"info","moduleName":"APMClient","message":"[ 'New APM Config received.' ]"}
+{"timestamp":"2024-01-09T07:11:17.551Z","level":"info","moduleName":"APMClient","message":"[ 'Cloud config is enabled.' ]"}
+{"timestamp":"2024-01-09T07:11:17.605Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:17.608Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:17.621Z","level":"info","moduleName":"LocalProject","message":"[ 'Forced refresh: Projects data will be re-collected' ]"}
+{"timestamp":"2024-01-09T07:11:17.624Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/newor/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/newor/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2024-01-09T07:11:17.633Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/newor/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/newor/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2024-01-09T07:11:17.634Z","level":"warn","moduleName":"LocalProject","message":"[\n  'Unable to update recent projects in registry.',\n  TypeError: Cannot read properties of undefined (reading 'major')\n      at EditorPrefLinux._buildPrefsData (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:126:50)\n      at EditorPrefLinux._updatePrefs (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:108:40)\n      at EditorPrefLinux.<anonymous> (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:95:24)\n      at Generator.next (<anonymous>)\n      at fulfilled (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:4:58)\n      at process.processTicksAndRejections (node:internal/process/task_queues:96:5)\n]"}
+{"timestamp":"2024-01-09T07:11:17.666Z","level":"info","moduleName":"Releases","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2024-01-09T07:11:17.674Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:18.166Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2024-01-09T07:11:19.016Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '2 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:19.016Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:19.017Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '1 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:19.017Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:19.023Z","level":"error","moduleName":"CLI","message":"[\n  Error: Provided editor version does not match to any known Unity Editor versions.\n      at InstallController.<anonymous> (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:126:23)\n      at Generator.next (<anonymous>)\n      at /opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:7:71\n      at new Promise (<anonymous>)\n      at __awaiter (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:3:12)\n      at InstallController.searchEditorVersion (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:124:16)\n      at InstallController.<anonymous> (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:170:51)\n      at Generator.next (<anonymous>)\n      at /opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installCli.js:7:71\n      at new Promise (<anonymous>)\n]"}
+{"timestamp":"2024-01-09T07:11:20.023Z","level":"info","moduleName":"CLI","message":"[ 'end' ]"}
+{"timestamp":"2024-01-09T07:11:25.039Z","level":"info","moduleName":"CLI","message":"[ 'CLI start', { _: [], headless: 'install-modules', v: '2022.2.6', version: '2022.2.6', m: [ 'linux-il2cpp' ], module: [ 'linux-il2cpp' ], q: true, u: true, i: true, installed: true, t: true, architecture: 'unknown', a: 'unknown', childModules: false, cm: false, 'child-modules': false, '$0': '/opt/unityhub/unityhub-bin' } ]"}
+{"timestamp":"2024-01-09T07:11:25.042Z","level":"info","moduleName":"App","message":"[ 'Environment variables loaded successfully.' ]"}
+{"timestamp":"2024-01-09T07:11:25.043Z","level":"info","moduleName":"APMClient","message":"[ 'Initializing APM Client' ]"}
+{"timestamp":"2024-01-09T07:11:32.862Z","level":"info","moduleName":"SystemInfo","message":"[ 'Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz;;Linux (6.6.10-arch1-1) x64;' ]"}
+{"timestamp":"2024-01-09T07:11:32.912Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.7.0' ]"}
+{"timestamp":"2024-01-09T07:11:32.915Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: /usr/bin/unityhub' ]"}
+{"timestamp":"2024-01-09T07:11:32.945Z","level":"info","moduleName":"HubSettings","message":"[ { cloudEnvironment: 'production', servicesUrlInterval: 900000, hubConfigInterval: 3600000, releasesRefreshInterval: 3600000, recentProjectInterval: 60000, downloadClusterInterval: 1000, downloadEditorInterval: 1000, refreshTokenValidity: 2592000000, checkForUpdateInterval: 43200000, sendAnalyticsEventsInterval: 60000, maxSizeForAnalyticsQueue: 500, downloadRequestTimeout: 30000, servicesConfigBaseUrl: 'https://public-cdn.cloud.unity3d.com/config/', globalConfigFolder: '/usr/share/unity3d/config' } ]"}
+{"timestamp":"2024-01-09T07:11:32.967Z","level":"info","moduleName":"CloudConfig","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2024-01-09T07:11:33.272Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2024-01-09T07:11:33.274Z","level":"info","moduleName":"LocalConfig","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2024-01-09T07:11:33.281Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Initializing Feature Flags Service' ]"}
+{"timestamp":"2024-01-09T07:11:33.283Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:33.315Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2024-01-09T07:11:33.316Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2024-01-09T07:11:33.317Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'licensingClientPath: /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client' ]"}
+{"timestamp":"2024-01-09T07:11:33.324Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.14.1' ]"}
+{"timestamp":"2024-01-09T07:11:33.324Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2024-01-09T07:11:33.332Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-newor.sock' ]"}
+{"timestamp":"2024-01-09T07:11:33.356Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Disconnecting from licensing client notifications pipe' ]"}
+{"timestamp":"2024-01-09T07:11:33.357Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Launching Licensing Client from /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client...' ]"}
+{"timestamp":"2024-01-09T07:11:33.357Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Launching on pipe: 'Unity-LicenseClient-newor' in environment: 'production'\" ]"}
+{"timestamp":"2024-01-09T07:11:33.409Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Fetching feature flags' ]"}
+{"timestamp":"2024-01-09T07:11:33.470Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2024-01-09T07:11:35.139Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 1597365' ]"}
+{"timestamp":"2024-01-09T07:11:35.142Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-newor.sock' ]"}
+{"timestamp":"2024-01-09T07:11:35.463Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect to notification channel on pipe /tmp/Unity-LicenseClient-newor-notifications.sock' ]"}
+{"timestamp":"2024-01-09T07:11:35.466Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client pipe' ]"}
+{"timestamp":"2024-01-09T07:11:35.466Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:35.466Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Registering callback method for 'onLicenseUpdate' notification\" ]"}
+{"timestamp":"2024-01-09T07:11:35.467Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Registering callback method for 'onLicenseExpired' notification\" ]"}
+{"timestamp":"2024-01-09T07:11:35.470Z","level":"info","moduleName":"Authentication Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2024-01-09T07:11:35.475Z","level":"info","moduleName":"Authentication Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2024-01-09T07:11:35.515Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2024-01-09T07:11:35.531Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:35.532Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.534Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.546Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.568Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.568Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.578Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.578Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.582Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.583Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.584Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.587Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.591Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.591Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.592Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.593Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2024-01-09T07:11:35.598Z","level":"error","moduleName":"CLI","message":"[ 'Error: The name org.freedesktop.secrets was not provided by any .service files' ]"}
+{"timestamp":"2024-01-09T07:11:35.599Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client notifications pipe' ]"}
+{"timestamp":"2024-01-09T07:11:35.636Z","level":"info","moduleName":"AmplitudeExperimentService","message":"[ 'Feature flags has changed, updating cache and notifying renderer' ]"}
+{"timestamp":"2024-01-09T07:11:35.637Z","level":"info","moduleName":"APMClient","message":"[ 'New APM Config received.' ]"}
+{"timestamp":"2024-01-09T07:11:35.637Z","level":"info","moduleName":"APMClient","message":"[ 'Cloud config is enabled.' ]"}
+{"timestamp":"2024-01-09T07:11:35.685Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:35.688Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.694Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.696Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Initialization with service type: LivePlatformAPI.' ]"}
+{"timestamp":"2024-01-09T07:11:35.697Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:35.697Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2024-01-09T07:11:35.700Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:35.700Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.701Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.709Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:35.709Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.714Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '0 out of 0 valid paths found in path:\\n      /home/newor/Unity/Hub/Editor' ]"}
+{"timestamp":"2024-01-09T07:11:35.714Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2024-01-09T07:11:35.718Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:35.718Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.718Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:35.724Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in legacy storage' ]"}
+{"timestamp":"2024-01-09T07:11:35.724Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in storage' ]"}
+{"timestamp":"2024-01-09T07:11:35.743Z","level":"info","moduleName":"Releases","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2024-01-09T07:11:35.744Z","level":"info","moduleName":"ThemeManager","message":"[ 'Initializing Theme Manager' ]"}
+{"timestamp":"2024-01-09T07:11:35.833Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2024-01-09T07:11:35.833Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2024-01-09T07:11:36.200Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:36.201Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:36.311Z","level":"info","moduleName":"LocalProject","message":"[ 'Forced refresh: Projects data will be re-collected' ]"}
+{"timestamp":"2024-01-09T07:11:36.323Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/newor/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/newor/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2024-01-09T07:11:36.341Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/newor/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/newor/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2024-01-09T07:11:36.343Z","level":"warn","moduleName":"LocalProject","message":"[\n  'Unable to update recent projects in registry.',\n  TypeError: Cannot read properties of undefined (reading 'major')\n      at EditorPrefLinux._buildPrefsData (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:126:50)\n      at EditorPrefLinux._updatePrefs (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:108:40)\n      at EditorPrefLinux.<anonymous> (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:95:24)\n      at Generator.next (<anonymous>)\n      at fulfilled (/opt/unityhub/resources/app.asar/build/main/services/editorPref/editorPref_linux.js:4:58)\n      at process.processTicksAndRejections (node:internal/process/task_queues:96:5)\n]"}
+{"timestamp":"2024-01-09T07:11:36.359Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2024-01-09T07:11:37.536Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2024-01-09T07:11:38.746Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '2 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:38.747Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:38.747Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '1 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:38.747Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2024-01-09T07:11:38.757Z","level":"error","moduleName":"CLI","message":"[\n  'Command error',\n  Error: No editor found for version \"2022.2.6\".\n      at InstallModulesController.<anonymous> (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installModulesCli.js:32:23)\n      at Generator.next (<anonymous>)\n      at fulfilled (/opt/unityhub/resources/app.asar/build/main/services/localCLI/controllers/installModulesCli.js:4:58)\n      at process.processTicksAndRejections (node:internal/process/task_queues:96:5)\n]"}
+{"timestamp":"2024-01-09T07:11:39.758Z","level":"info","moduleName":"CLI","message":"[ 'end' ]"}

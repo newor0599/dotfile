@@ -1,0 +1,40 @@
+{
+  "Name": "7 seg driver",
+  "Colour": "#7416D2",
+  "InputPins": [
+    {
+      "Name": "A",
+      "ID": 279941186,
+      "PositionY": 4.166667,
+      "ColourThemeName": "Blue"
+    },
+    {
+      "Name": "B",
+      "ID": 320981821,
+      "PositionY": 3.3984375,
+      "ColourThemeName": "Green"
+    },
+    {
+      "Name": "C",
+      "ID": 1811787486,
+      "PositionY": 2.604167,
+      "ColourThemeName": "Yellow"
+    },
+    {
+      "Name": "D",
+      "ID": 522233794,
+      "PositionY": 1.84895813,
+      "ColourThemeName": "Red"
+    }
+  ],
+  "OutputPins": [
+    {
+      "Name": "",
+      "ID": 696887687,
+      "PositionY": -0.7161455,
+      "ColourThemeName": "Red"
+    }
+  ],
+  "SubChips": [],
+  "Connections": []
+}

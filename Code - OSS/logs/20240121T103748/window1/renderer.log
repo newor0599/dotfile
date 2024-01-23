@@ -1,0 +1,4 @@
+2024-01-21 10:38:05.376 [info] Started local extension host with pid 2126538.
+2024-01-21 10:38:11.330 [info] [perf] Render performance baseline is 205ms
+2024-01-21 10:40:36.906 [error] [Extension Host] (node:2126538) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `exe --trace-warnings ...` to show where the warning was created)

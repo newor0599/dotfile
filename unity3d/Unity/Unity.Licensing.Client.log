@@ -1,0 +1,160 @@
+2024-01-09 07:11:16.760 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] cloudEnvironment: production
+2024-01-09 07:11:16.763 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client product version: 1.15.0+66d4389
+2024-01-09 07:11:16.764 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client assembly version: 1.15.0.0
+2024-01-09 07:11:16.765 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] File version: 1.15.0 (/opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client.dll)
+2024-01-09 07:11:16.766 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] Current OS: Linux 6.6.10-arch1-1 #1 SMP PREEMPT_DYNAMIC Fri, 05 Jan 2024 16:20:41 +0000
+2024-01-09 07:11:16.767 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-newor --cloudEnvironment production
+2024-01-09 07:11:16.779 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: 94d9e838eb7ac5b9c559d0f4429989dc
+2024-01-09 07:11:16.795 - [1588752] - [    13] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-newor created (on thread: 13)
+2024-01-09 07:11:16.798 - [1588752] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Floating licensing service disabled: Invalid servicesConfiguration for licensing. Make sure the licensingServiceBaseUrl servicesConfiguration is a valid URL
+2024-01-09 07:11:16.799 - [1588752] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Licensing replication disabled: Failed to acquire Licensing Service URL from configuration under configuration key: licensingServiceBaseUrl
+2024-01-09 07:11:16.822 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:16.823 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0008496
+2024-01-09 07:11:16.895 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+
+2024-01-09 07:11:16.896 - [1588752] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2024-01-09 07:11:16.901 - [1588752] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Unable to find valid licenses and remote licensing service is not configured
+2024-01-09 07:11:16.952 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2024-01-09 07:11:16.956 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2024-01-09 07:11:16.958 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2024-01-09 07:11:16.967 - [1588752] - [    15] - WARN  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Failed to get OptOut status. An error occured while getting IRSOptOutStatus. [GetUserInfo] Error: Token not found in cache
+2024-01-09 07:11:16.990 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2024-01-09 07:11:16.993 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 15)
+2024-01-09 07:11:17.011 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2024-01-09 07:11:17.012 - [1588752] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2024-01-09 07:11:17.012 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 15)
+2024-01-09 07:11:17.025 - [1588752] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2024-01-09 07:11:17.026 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2024-01-09 07:11:17.039 - [1588752] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2024-01-09 07:11:17.055 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: a3557705ce27408eb8816925065f0daa
+2024-01-09 07:11:17.062 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2024-01-09 07:11:17.063 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2024-01-09 07:11:17.158 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: Hub 3.7.0 (LocalIPC/1.15.0)
+2024-01-09 07:11:17.206 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Handshake successful
+2024-01-09 07:11:17.228 - [1588752] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2024-01-09 07:11:17.230 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2024-01-09 07:11:17.255 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Access token is empty, user logged out
+2024-01-09 07:11:17.261 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  (null)
+2024-01-09 07:11:17.305 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.305 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000434
+2024-01-09 07:11:17.315 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.316 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000111
+2024-01-09 07:11:17.343 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:17.346 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.346 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000124
+2024-01-09 07:11:17.347 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.347 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000089
+2024-01-09 07:11:17.347 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:17.352 - [1588752] - [    16] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2024-01-09 07:11:17.356 - [1588752] - [    16] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/newor/.config/unity3d/Unity/config/production.json"
+2024-01-09 07:11:17.363 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.363 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000097
+2024-01-09 07:11:17.364 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.364 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000053
+2024-01-09 07:11:17.364 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:17.373 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.373 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000131
+2024-01-09 07:11:17.374 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.374 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000175
+2024-01-09 07:11:17.374 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:17.408 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.408 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000107
+2024-01-09 07:11:17.409 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:17.409 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000061
+2024-01-09 07:11:17.409 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:17.787 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] New PACL file is written successfully from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl"
+2024-01-09 07:11:17.793 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2024-01-09 07:11:17.795 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 38, version: 1.0
+2024-01-09 07:11:20.331 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2024-01-09 07:11:20.334 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2024-01-09 07:11:20.334 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2024-01-09 07:11:20.331 - [1588752] - [    11] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2024-01-09 07:11:20.336 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2024-01-09 07:11:20.338 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2024-01-09 07:11:20.338 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2024-01-09 07:11:20.347 - [1588752] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2024-01-09 07:11:20.370 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 15)
+2024-01-09 07:11:20.375 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2024-01-09 07:11:20.375 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 15)
+2024-01-09 07:11:20.378 - [1588752] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2024-01-09 07:11:20.386 - [1588752] - [    13] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-newor (thread: 13)
+2024-01-09 07:11:34.844 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] cloudEnvironment: production
+2024-01-09 07:11:34.879 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client product version: 1.15.0+66d4389
+2024-01-09 07:11:34.880 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client assembly version: 1.15.0.0
+2024-01-09 07:11:34.880 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] File version: 1.15.0 (/opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client.dll)
+2024-01-09 07:11:34.880 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] Current OS: Linux 6.6.10-arch1-1 #1 SMP PREEMPT_DYNAMIC Fri, 05 Jan 2024 16:20:41 +0000
+2024-01-09 07:11:34.880 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-newor --cloudEnvironment production
+2024-01-09 07:11:34.896 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: 6b1420e0fb8390d661aa32b8846cbd1f
+2024-01-09 07:11:34.910 - [1597365] - [    11] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-newor created (on thread: 11)
+2024-01-09 07:11:34.913 - [1597365] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Floating licensing service disabled: Invalid servicesConfiguration for licensing. Make sure the licensingServiceBaseUrl servicesConfiguration is a valid URL
+2024-01-09 07:11:34.913 - [1597365] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Licensing replication disabled: Failed to acquire Licensing Service URL from configuration under configuration key: licensingServiceBaseUrl
+2024-01-09 07:11:34.934 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:34.938 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0032489
+2024-01-09 07:11:35.013 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+
+2024-01-09 07:11:35.014 - [1597365] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2024-01-09 07:11:35.014 - [1597365] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Unable to find valid licenses and remote licensing service is not configured
+2024-01-09 07:11:35.048 - [1597365] - [     7] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2024-01-09 07:11:35.052 - [1597365] - [    14] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2024-01-09 07:11:35.055 - [1597365] - [    14] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2024-01-09 07:11:35.068 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 15)
+2024-01-09 07:11:35.075 - [1597365] - [    14] - WARN  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Failed to get OptOut status. An error occured while getting IRSOptOutStatus. [GetUserInfo] Error: Token not found in cache
+2024-01-09 07:11:35.092 - [1597365] - [     7] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2024-01-09 07:11:35.129 - [1597365] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2024-01-09 07:11:35.130 - [1597365] - [     7] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Local PACL revision: 38
+2024-01-09 07:11:35.131 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2024-01-09 07:11:35.131 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 15)
+2024-01-09 07:11:35.137 - [1597365] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2024-01-09 07:11:35.138 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2024-01-09 07:11:35.176 - [1597365] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2024-01-09 07:11:35.201 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: 9b03483fe2514c299702684daea74a8d
+2024-01-09 07:11:35.210 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2024-01-09 07:11:35.212 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2024-01-09 07:11:35.380 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: Hub 3.7.0 (LocalIPC/1.15.0)
+2024-01-09 07:11:35.440 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Handshake successful
+2024-01-09 07:11:35.468 - [1597365] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2024-01-09 07:11:35.475 - [1597365] - [    16] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2024-01-09 07:11:35.562 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Access token is empty, user logged out
+2024-01-09 07:11:35.569 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  (null)
+2024-01-09 07:11:35.636 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.636 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000198
+2024-01-09 07:11:35.668 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.668 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000107
+2024-01-09 07:11:35.679 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:35.687 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.694 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000413
+2024-01-09 07:11:35.695 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.695 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000280
+2024-01-09 07:11:35.696 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:35.705 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.705 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000137
+2024-01-09 07:11:35.706 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.706 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000094
+2024-01-09 07:11:35.706 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:35.715 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.715 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000310
+2024-01-09 07:11:35.715 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.716 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000419
+2024-01-09 07:11:35.716 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:35.752 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.752 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000132
+2024-01-09 07:11:35.753 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2024-01-09 07:11:35.753 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000124
+2024-01-09 07:11:35.753 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.7.0 (LocalIPC/1.15) [200]:  Success, found: 0 groups
+2024-01-09 07:11:36.469 - [1597365] - [     9] - WARN  - [PackageService.HttpRequests] Handled response: [304 | Not Modified | ] from request: [GET | https://license.unity3d.com/licenses/v1/packages/acl | ]
+2024-01-09 07:11:36.497 - [1597365] - [     9] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Skipping download. No difference between local and remote ETag (uri: "https://license.unity3d.com/licenses/v1/packages/acl", ETag: "654de81db1c74995713c240e35a55046")
+2024-01-09 07:11:36.511 - [1597365] - [     9] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2024-01-09 07:11:36.516 - [1597365] - [     9] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 38, version: 1.0
+2024-01-09 07:11:40.000 - [1597365] - [     9] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2024-01-09 07:11:40.005 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2024-01-09 07:11:40.005 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2024-01-09 07:11:40.006 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2024-01-09 07:11:40.012 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2024-01-09 07:11:40.012 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2024-01-09 07:11:40.013 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2024-01-09 07:11:40.024 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 15)
+2024-01-09 07:11:40.051 - [1597365] - [    20] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2024-01-09 07:11:40.052 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2024-01-09 07:11:40.052 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 15)
+2024-01-09 07:11:40.058 - [1597365] - [    15] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2024-01-09 07:11:40.078 - [1597365] - [    11] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-newor (thread: 11)

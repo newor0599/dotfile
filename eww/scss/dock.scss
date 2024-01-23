@@ -1,27 +1,39 @@
-/*
-@font-face{
-  font-family: 'Nerd';
-  src: url(/usr/share/fonts/TTF/3270NerdFont-Regular.ttf) format("ttf");
-  font-weight: normal;
-  font-style: normal;
+@import "/home/newor/.config/eww/scss/primary-color";
+
+*{
+	transition:.7s ease;
+	font-size:12px;
 }
-*/
-
-
-
-
 window{
-  background:none;
+	background:none;
 }
 
-.dock-body{
-  background:rgba(22,22,22,.8);
-  border-radius: 1rem;
-}
 
 .dock{
-  color:#ddd;
-  font-family: 'Courier New', Courier, monospace;
-  /*margin: 0 1rem 0 1rem;*/
+	color:#ddd;
+	/*margin: 0 1rem 0 1rem;*/
+	margin:5px;
 }
 
+.dock.btn{
+	background:none;
+	border:3px solid #ddd;
+	border-radius:1rem;
+	box-shadow:none;
+	margin:5px;
+	font-size:100rem;
+	padding:0;
+}
+
+.dock.body{
+	background:mix($primary,rgb(0,0,0,.7));
+	border-radius: 1rem;
+	margin:0;
+}
+.dock.time{
+	color:#ddd;
+	margin-left:10px;
+}
+.dock.btn.wifi{
+	padding:0 10px 0 10px;
+}

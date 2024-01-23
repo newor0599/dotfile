@@ -1,0 +1,12 @@
+(deflisten notifs :initial ""
+	"python3 /home/newor/.config/eww/script/notification.py"
+)
+(defwindow notification
+	:monitor 0
+	:geometry (geometry 
+		:x "20px"
+		:y "20px"
+		:anchor "top right")
+	:stacking "overlay"
+	(literal :content notifs)
+)

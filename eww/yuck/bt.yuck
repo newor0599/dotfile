@@ -1,24 +1,38 @@
-(deflisten scan :initial ""
-  "python /home/newor/.config/eww/script/scan-bt.py"
-)
+(deflisten scan-script :initial ""
+ "bash script/bluetooth/bt-get.sh"
+ )
+(defvar show_bt true)
 
 (defwindow bt
-  :monitor 0
-  :wm-ignore true
-  :stacking "fg"
-  :windowtype "normal"
-  :geometry (geometry
-    :x "2%"
-    :y "2%"
-    :width "15%"
-    :height "30%"
-    :anchor "top right"
-  )
-  (box
-    :class "bt box"
-    (label
-      :class "bt text"
-      :text "hi"
-    )
-  )
+ :monitor 0
+ :wm-ignore true
+ :stacking "fg"
+ :exclusive false
+ :windowtype 'normal'
+ :geometry (geometry
+	 :x "1%"
+	 :y "1%"
+	 :width "15%"
+	 :height "30%"
+	 :anchor "top right"
+	 )
+ (box
+	:space-evenly false
+	:orientation "v"
+
+ (revealer
+	:transition "slidedown"
+	:duration "400ms"
+	:reveal show_bt
+	(box
+	 :space-evenly false
+	 :spacing 0
+	 :class "bt frame"
+	 :orientation "v"
+	 :height 200
+	 (label :text "Bluetooth" :class "indicate bt")
+	 (literal :content scan-script :class "bt btn" :vexpand true)
+	)
+ )
+ )
 )

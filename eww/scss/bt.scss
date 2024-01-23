@@ -1,8 +1,32 @@
-.bt.box{
-  background:#333;
-  border-radius: 1rem;
+@import "/home/newor/.config/eww/scss/primary-color";
+*{
+	transition:.5s ease;
+	font-family: Comfortaa;
+	font-weight:bold;
 }
-
-.bt.text{
-  color:#ddd;
+.bt.frame{
+	background:mix($primary,rgb(0,0,0,.7));
+	padding:5px;
+	border:none;
+	border-radius:1rem .5rem 1rem .5rem;
+	label{
+		color: #ddd;
+	}
+}
+.cnt.bt{
+	background:mix($primary,rgb(77,77,77));
+	margin:5px;
+	border-radius:1rem .5rem 1rem .5rem;
+	border:none;
+	outline:none;
+	box-shadow: 0 0 3px 3px mix($primary,rgb(22,22,22));
+}
+.cnted.bt{
+	opacity: .1;
+	background:mix($primary,rgb(44,44,44));
+	margin:5px;
+	border-radius:1rem .5rem 1rem .5rem;
+	border:none;
+	outline:none;
+	box-shadow: 0 0 3px 3px mix($primary,rgb(22,22,22));
 }
