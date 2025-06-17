@@ -1,0 +1,39 @@
+#!/bin/sh
+#echo Script is running
+hyprpicker -r -z &
+sleep 0.1
+areaa=$(slurp)
+if [ -z "$areaa" ]; then
+    pkill hyprpicker
+    echo "killing hyprpicker"
+    sleep 0.1
+    exit
+fi
+
+grim -g "$areaa"  /tmp/screenshot.png
+pkill hyprpicker
+wl-copy < /tmp/screenshot.png
+sleep 0.1
+notify-send \
+    -t 1000 \
+    -a grimblast \
+    -i /tmp/screenshot.png \
+    "Screenshot saved to clipboard"
+
+exit
+action=$(notify-send \
+    -t 1000 \
+    -a grimblast \
+    -i /tmp/screenshot.png \
+    --action=swappy="Edit screenshot" \
+    "Screenshot saved to clipboard"
+)
+if [ "$action" = "swappy" ]; then
+    swappy -f /tmp/screenshot.png -o /tmp/screenshot.png
+    notify-send \
+        -t 1000 \
+        -a grimblasy \
+        -i /tmp/screenshot.png \
+        "Edit saved to clipboard"
+fi
+exit
