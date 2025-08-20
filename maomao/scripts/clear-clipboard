@@ -1,6 +1,0 @@
-#!/bin/sh
-cliphist wipe
- while IFS= read -r line; do 
-  echo "$line" | wl-copy
-done < ~/.config/maomao/scripts/key
-notify-send System "Cleared clipboard" -i ~/.systemui/assets/icons/system.png

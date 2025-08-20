@@ -1,0 +1,6 @@
+#!/bin/sh
+cliphist wipe
+ while IFS= read -r line; do 
+  echo "$line" | wl-copy
+done < ~/.config/mango/scripts/clipboard_pinned_item
+notify-send -a System "clipboard" "Cleared clipboard" -i ~/.systemui/assets/icons/system.png

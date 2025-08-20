@@ -1,0 +1,4 @@
+#!/bin/sh
+grim /tmp/screenshot.png
+wl-copy</tmp/screenshot.png
+notify-send -a "System" -i /tmp/screenshot.png "screenshot" "Screenshot saved to clipboard"

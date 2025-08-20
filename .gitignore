@@ -1,0 +1,12 @@
+.gitignore
+.config/*/ss.png
+.config/yazi/*.toml-*
+.config/mango/wall.gif
+.config/mango/notes.md
+.config/ignis/__pycache__/
+.config/ignis/*/__pycache__/
+.config/ignis/*/*/__pycache__/
+.config/ignis/*/*/*/__pycache__/
+.config/zellij/config.kdl.bak
+.config/mango/unused_binds.conf
+.config/mango/scripts/clipboard_pinned_item

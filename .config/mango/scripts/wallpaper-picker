@@ -1,0 +1,28 @@
+#!/usr/bin/bash
+
+# Directory containing images
+image_dir="$HOME/wallpapers"  # Change this to your directory
+thumb_dir="/tmp/wofi_thumbs"
+mkdir -p "$thumb_dir"
+
+# Generate thumbnails (resized for wofi)
+find "$image_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.bmp" \) | while read -r img; do
+    thumb_name=$(basename "$img")
+    thumb_path="$thumb_dir/$thumb_name"
+    # Only generate thumbnail if it doesn't exist
+    if [ ! -f "$thumb_path" ]; then
+        convert "$img" -thumbnail 200x200 "$thumb_path"  # Requires ImageMagick
+    fi
+    echo "img:$thumb_path"
+done | wofi -I --dmenu -Dimage_size=100 -Dynamic_lines=true -p "Select Image" --color "$HOME/.config/wofi/colors" | {
+  read -r selected
+  if [[ "$selected" == img:* ]]; then
+          image_path="${selected#img:/tmp/wofi_thumbs/}"
+          echo "Setting wallpaper: $image_path"
+          swww img "$image_dir"/"$image_path" --transition-type=wave --transition-pos=top-right
+          sleep 1
+          ignis reload
+  else
+    echo "Error: Invalid selection."
+  fi
+}

@@ -1,4 +1,0 @@
-#!/bin/sh
-grim /tmp/screenshot.png
-wl-copy</tmp/screenshot.png
-notify-send -a grimblast -i /tmp/screenshot.png "Screenshot saved"

@@ -1,0 +1,1 @@
+cat ~/.config/mango/scripts/emoji_database | wofi --show dmenu -i -p "emoji picker" --color "$HOME/.config/wofi/colors" | cut -d ' ' -f 1 | tr -d '\n' | wl-copy
