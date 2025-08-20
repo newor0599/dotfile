@@ -20,7 +20,7 @@ done | wofi -I --dmenu -Dimage_size=100 -Dynamic_lines=true -p "Select Image" --
           image_path="${selected#img:/tmp/wofi_thumbs/}"
           echo "Setting wallpaper: $image_path"
           swww img "$image_dir"/"$image_path" --transition-type=wave --transition-pos=top-right
-          sleep 1
+          # sleep 1
           ignis reload
   else
     echo "Error: Invalid selection."
