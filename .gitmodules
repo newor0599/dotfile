@@ -1,9 +1,6 @@
 [submodule ".config/ignis"]
 	path = .config/ignis
 	url = https://github.com/newor0599/ignis-workspace
-[submodule "nvim-conf"]
-	path = nvim-conf
-	url = https://github.com/newor0599/nvim-conf
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/newor0599/nvim-conf
