@@ -1,5 +1,4 @@
 #!/bin/sh
-#echo Script is running
 hyprpicker -r -z &
 sleep 0.1
 areaa=$(slurp)
