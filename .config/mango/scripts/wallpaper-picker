@@ -10,13 +10,13 @@ while read -r img; do
   [ -f "$thumb_path" ] || convert "$img" -thumbnail 200x200 "$thumb_path"
   echo "img:$thumb_path"
 done < <(find "$image_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.bmp" \)) \
-  | wofi -I --dmenu -Dimage_size=100 -Dynamic_lines=true -p "Select Image" --color "$HOME/.config/wofi/colors" \
+  | wofi -i -I --dmenu -Dimage_size=100 -Dynamic_lines=true -p "Select Image" --color "$HOME/.config/wofi/colors" \
   | {
       read -r selected
       if [[ "$selected" == img:* ]]; then
         image_path="${selected#img:/tmp/wofi_thumbs/}"
         echo -e "Light Mode\nDark Mode" \
-          | wofi --dmenu -I --color "$HOME/.config/wofi/colors" -p "Select theme" \
+          | wofi -i --dmenu --color "$HOME/.config/wofi/colors" -p "Select theme" \
           | while read -r mode; do
               case "$mode" in
                 "Light Mode")

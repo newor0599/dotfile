@@ -1,0 +1,37 @@
+@define-color gtklock_a #e5e1dd;@define-color gtklock_b #9c8879;@define-color gtklock_c #261e17;window{background:url("/home/newor/.systemui/wallpapers//sakura.jpg");background-position:center;background-repeat:no-repeat;}
+*{
+  border:none;
+  outline:none;
+  box-shadow:none;
+  font-family:"Monomaniac One";
+  font-weight:500;
+  font-size:1.5rem;
+  transition:.3s ease;
+  margin: .4rem;
+  letter-spacing: .3rem;
+}
+#window-box {
+  padding: 64px;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+  background-color: @gtklock_c;
+  color: @gtklock_a;
+}
+entry{
+  background:@gtklock_a;
+  border-radius:10rem;
+  color:@gtklock_c;
+  padding-left:.7rem;
+  font-size:1rem;
+  letter-spacing:.3rem;
+}
+button{
+  background:@gtklock_b;
+  color:@gtklock_c;
+  border-radius:10rem;
+}
+entry selection{
+  background:@gtklock_c;
+  border-radius:10rem;
+  color:@gtklock_a;
+}
