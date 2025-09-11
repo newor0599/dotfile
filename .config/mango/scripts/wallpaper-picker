@@ -21,11 +21,11 @@ done < <(find "$image_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -inam
               case "$mode" in
                 "Light Mode")
                   swww img "$image_dir/$image_path" --transition-type=wave --transition-pos=top-right
-                  ignis run-python "from scripts import colors;colors.ColorManager().update('$image_dir/$image_path',1)"
+                  ignis run-python "from scripts import colors;colors.ColorManager().update('$image_dir$image_path',1)"
                   ;;
                 "Dark Mode")
-                  swww img "$image_dir/$image_path" --transition-type=wave --transition-pos=top-right
-                  ignis run-python "from scripts import colors;colors.ColorManager().update('$image_dir/$image_path',0)"
+                  swww img "$image_dir$image_path" --transition-type=wave --transition-pos=top-right
+                  ignis run-python "from scripts import colors;colors.ColorManager().update('$image_dir$image_path',0)"
                   ;;
                 *)
                   echo "No theme selection."
