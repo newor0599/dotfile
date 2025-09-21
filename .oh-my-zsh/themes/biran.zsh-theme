@@ -17,7 +17,7 @@ fi
 ZSH_THEME_RVM_PROMPT_OPTIONS="i v g"
 
 RPROMPT="%B%F{15}${return_code}%b"
-PROMPT="%F{15}╭─${conda_prompt}${user_host}%K{7}${current_dir}%F{7}${rvm_ruby}${vcs_branch}${venv_prompt}${kube_prompt}
+PROMPT="%F{15}╭─${conda_prompt}%K{7}${user_host}%K{7}${current_dir}%F{7}${rvm_ruby}${vcs_branch}${venv_prompt}${kube_prompt}
 %F{15}╰─ "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %K{7}%{$fg[yellow]%}‹"
