@@ -1,3 +1,2 @@
-- Use goignis
-- Use hyprlock
-- Added keybind for screen rotation
+- Change kitty font
+- Added kitty padding
