@@ -1,0 +1,1 @@
+gtklock -c ~/.config/gtklock/config.ini -s ~/.config/gtklock/style.css -m ~/.config/gtklock/playerctl-module.so -d

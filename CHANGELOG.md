@@ -1,0 +1,3 @@
+- Use goignis
+- Use hyprlock
+- Added keybind for screen rotation

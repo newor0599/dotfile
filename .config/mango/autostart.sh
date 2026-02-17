@@ -1,6 +1,6 @@
 #!/bin/bash
 set +e
-ignis init &
+goignis init &
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots &
 /usr/lib/xdg-desktop-portal &
 # /usr/lib/xdg-desktop-portal-wlr &
