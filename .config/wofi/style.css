@@ -1,20 +1,19 @@
 * {
-  border: None;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
 }
 
 #window {
   margin: 10px;
-  border-radius: 10px;
-  background-color: --wofi-color2;
 }
 
 #input {
   margin: 10px;
   border: none;
-  color: --wofi-color2;
-  background-color: --wofi-color1;
-  outline: none;
-  box-shadow: none;
+  color: --wofi-color4;
+  background-color: --wofi-color2;
   border-radius: 10px;
   box-shadow: 0 0 3px 1px --wofi-color2;
 }
@@ -24,21 +23,21 @@
 }
 
 #input:focus {
-  background-color: --wofi-color0;
-  box-shadow: 0 0 3px 1px --wofi-color0;
+  background-color: --wofi-color3;
+  box-shadow: 0 0 3px 1px --wofi-color3;
 }
 
 #inner-box {
   margin: 5px;
   border: none;
-  background-color: --wofi-color2;
   border-radius: 10px;
 }
 
 #outer-box {
   margin: 5px;
   border: none;
-  background-color: --wofi-color2;
+  background-color: --wofi-color1;
+  border-radius: 20px;
 }
 
 #scroll {
@@ -49,13 +48,13 @@
 #text {
   border: none;
   margin-left: 10px;
-  color: --wofi-color2;
+  color: --wofi-color4;
 }
 
 #entry:selected {
-  background-color: --wofi-color1;
-  border-radius: 10px;
-  box-shadow: 0 0 3px .4px --wofi-color2;
+  background-color: --wofi-color3;
+  box-shadow: 0 0 3px .4px --wofi-color3;
+  border: none;
 }
 
 #entry {
@@ -63,11 +62,7 @@
   transition: .3s ease;
   border: none;
   margin: 5px;
-  background: --wofi-color0;
+  background: --wofi-color2;
   border-radius: 10px;
   box-shadow: 0 0 3px .4px --wofi-color2;
-}
-
-.entry {
-  border: none;
 }

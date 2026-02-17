@@ -1,2 +1,1 @@
-- Change kitty font
-- Added kitty padding
+- Style more wofi ui
