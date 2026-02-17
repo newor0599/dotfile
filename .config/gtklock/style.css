@@ -1,37 +1,73 @@
-@define-color gtklock_a #e5e1dd;@define-color gtklock_b #9c8879;@define-color gtklock_c #261e17;window{background:url("/home/newor/.systemui/wallpapers//sakura.jpg");background-position:center;background-repeat:no-repeat;}
-*{
-  border:none;
-  outline:none;
-  box-shadow:none;
-  font-family:"Monomaniac One";
-  font-weight:500;
-  font-size:1.5rem;
-  transition:.3s ease;
-  margin: .4rem;
-  letter-spacing: .3rem;
+@define-color gtklock_a #1a1434;
+@define-color gtklock_b #090713;
+@define-color gtklock_c #1a1434;
+@define-color gtklock_d #2b2155;
+@define-color gtklock_e #a485db;
+
+window {
+    background:url("/home/newor/.systemui/wallpapers/arch japanese.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+* {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: "Monomaniac One";
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: .4rem;
+    letter-spacing: .3rem;
+    transition: .5s ease;
+}
+
 #window-box {
-  padding: 64px;
+    padding: 64px;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    background-color: @gtklock_b;
+    color: @gtklock_e;
+}
+
+entry {
+    background: @gtklock_c;
+    border-radius: 10rem;
+    color: @gtklock_e;
+    padding-left: .7rem;
+    font-size: 1rem;
+    outline: none;
+    letter-spacing: .3rem;
+}
+
+button {
+    background: @gtklock_c;
+    color: @gtklock_e;
+    border-radius: 10rem;
+}
+
+entry selection {
+    background: @gtklock_e;
+    border-radius: 10rem;
+    color: @gtklock_c;
+}
+
+#playerctl-box {
+  background: @gtklock_b;
   border-radius: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
-  background-color: @gtklock_c;
-  color: @gtklock_a;
+  color: @gtklock_e;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: .3s ease;
 }
-entry{
-  background:@gtklock_a;
-  border-radius:10rem;
-  color:@gtklock_c;
-  padding-left:.7rem;
-  font-size:1rem;
-  letter-spacing:.3rem;
+
+#playerctl-box button box {
+  padding: 0;
+  background: @gtklock_c;
 }
-button{
-  background:@gtklock_b;
-  color:@gtklock_c;
-  border-radius:10rem;
+
+box button box image {
+  color: @gtklock_e;
 }
-entry selection{
-  background:@gtklock_c;
-  border-radius:10rem;
-  color:@gtklock_a;
-}
+
