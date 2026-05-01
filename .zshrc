@@ -9,5 +9,7 @@ alias torrent=transmission-cli
 export TERMINAL=kitty
 alias please=sudo
 alias pls=sudo
+alias hx=helix
 bindkey '^h' autosuggest-accept
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=white,bg=black"
+export PATH=/home/newor/.local/share/gem/ruby/3.4.0/bin:$PATH

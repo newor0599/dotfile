@@ -11,10 +11,10 @@
 !.config/fcitx5/
 !.config/xdg-desktop-portal/
 !.config/nvim/
-!preview/
 !.oh-my-zsh/
 !.local/
 !.systemui/
+!preview/
 
 !.config/mango/**
 !.config/ignis/**
@@ -28,13 +28,14 @@
 !.config/xdg-desktop-portal/**
 !.config/nvim/**
 !.oh-my-zsh/**
-!preview/**
 !.local/**
 !.systemui/**
+!preview/**
 
+!README.md
+!CHANGELOG.md
 !.stow-local-ignore
 !.zshrc
-!README.md
 !.gitignore
 
 .config/*/ss.png
@@ -49,3 +50,4 @@
 .config/mango/unused_binds.conf
 .config/mango/scripts/clipboard_pinned_item
 .local/share/fcitx5/pinyin
+.config/*/color*

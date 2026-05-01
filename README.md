@@ -24,4 +24,7 @@ stow .
 - Xdg desktop portal
 - Wofi
 - Zellij
+- GTKLock
+- Hyprlock
 - Fcitx5
+- neovim

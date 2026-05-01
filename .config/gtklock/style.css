@@ -1,11 +1,11 @@
-@define-color gtklock_a #1a1434;
-@define-color gtklock_b #090713;
-@define-color gtklock_c #1a1434;
-@define-color gtklock_d #2b2155;
-@define-color gtklock_e #a485db;
+@define-color gtklock_a #131817;
+@define-color gtklock_b #000000;
+@define-color gtklock_c #131817;
+@define-color gtklock_d #273230;
+@define-color gtklock_e #658982;
 
 window {
-    background:url("/home/newor/.systemui/wallpapers/arch japanese.jpg");
+    background:url("/home/newor/.systemui/wallpapers/abik-peravan-4TfTVsZ26-0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
