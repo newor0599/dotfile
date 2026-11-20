@@ -9,6 +9,7 @@
 !btop/
 !fcitx5/
 !fcitx/
+!tmux/
 
 !nvim/*
 !mango/*
@@ -18,6 +19,7 @@
 !btop/*
 !fcitx5/*
 !fcitx/*
+!tmux/*
 
 !nvim/*/*
 !mango/*/*
@@ -25,3 +27,4 @@
 !noctalia/*/*
 !fcitx5/*/*
 !fcitx/*/*
+!tmux/*/*
