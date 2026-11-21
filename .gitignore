@@ -10,6 +10,7 @@
 !fcitx5/
 !fcitx/
 !tmux/
+!vis/
 
 !nvim/*
 !mango/*
@@ -20,6 +21,7 @@
 !fcitx5/*
 !fcitx/*
 !tmux/*
+!vis/*
 
 !nvim/*/*
 !mango/*/*
@@ -28,3 +30,4 @@
 !fcitx5/*/*
 !fcitx/*/*
 !tmux/*/*
+!vis/*/*
