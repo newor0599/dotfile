@@ -29,3 +29,10 @@
 !fcitx5/*/*
 !fcitx/*/*
 !tmux/*/*
+
+mango/monitors.conf
+mango/noctalia.conf
+nvim/lua/matugen.lua
+tmux/themes/
+fcitx5/conf/classicui.conf
+fcitx5/conf/cached_layouts
