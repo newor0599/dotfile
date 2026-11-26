@@ -1,3 +1,5 @@
 {
-  "workspace":{"vis-definition/library"}
+  "workspace.library": [
+    "vis-definition/library"
+  ]
 }
